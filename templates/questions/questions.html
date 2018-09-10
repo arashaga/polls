@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yes</title>
+</head>
+<body>
+{%  for question in questions %}
+<ul>
+    <li>Question: {{ question.qid }}</li>
+    <li>Question: {{ question.question_text }}</li>
+     <li>Question: {{ question.pub_date }}</li>
+</ul>
+{% endfor %}
+</body>
+</html>
